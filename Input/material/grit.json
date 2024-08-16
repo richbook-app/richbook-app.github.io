@@ -1,0 +1,41 @@
+{
+  "MaterialId": "grit--the-power-of-passion-and-perseverance--angela-lee-duckworth",
+  "title": "Grit: the power of passion and perseverance | Angela Lee Duckworth",
+  "coverImage": {
+    "filePath": "/images/reorder-list.png"
+  },
+  "description": "Leaving a high-flying job in consulting, Angela Lee Duckworth took a job teaching math to seventh graders in a New York public school. She quickly realized that IQ wasn't the only thing separating the successful students from those who struggled. Here, she explains her theory of Grit as a predictor of success.",
+  "YoutubeVideoId": "H14bBuluwB8",
+  "tracksList": [
+    {
+      "start": 12.5,
+      "end": 14.5,
+      "transcript": "when I was 20 years old",
+      "translate": "وقتی بیست ساله بودم"
+    },
+    {
+      "start": 14.5,
+      "end": 18,
+      "transcript": "I left a very demanding job in management consulting",
+      "translate": "من یک شغل بسیار پرمشغله و چالش‌ برانگیز در زمینه مشاوره مدیریت را ترک کردم"
+    },
+    {
+      "start": 18,
+      "end": 22,
+      "transcript": "for a job that was even more demanding teaching!",
+      "translate": "برای یک شغل که حتی پرمشغله‌تر و چالش‌برانگیزتر بود: تدریس"
+    },
+    {
+      "start": 22,
+      "end": 25.5,
+      "transcript": "I went to teach seventh graders math",
+      "translate": "من برای تدریس ریاضی به دانش‌آموزان کلاس هفتم رفتم"
+    },
+    {
+      "start": 25.5,
+      "end": 27,
+      "transcript": "in the New York City public schools.",
+      "translate": "در مدارس دولتی شهر نیویورک"
+    }
+  ]
+}

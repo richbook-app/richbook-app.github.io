@@ -1,0 +1,12 @@
+{
+  "PostId": "when-and-why-should-we-use-ddd",
+  "title": "When and why should we use DDD?",
+  "coverImage": {
+    "filePath": "/images/ddd-cover.jpeg"
+  },
+  "description": "in the world of software development is talked about DDD more than using it practically. We want to see when we should use DDD!",
+  "publishDate": "2024-02-02T00:00:00Z",
+  "Markdown": {
+    "filePath": "markdowns/when-and-why-should-we-use-ddd.md"
+  }
+}

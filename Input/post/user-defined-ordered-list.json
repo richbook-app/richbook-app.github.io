@@ -1,0 +1,12 @@
+{
+  "PostId": "user-defined-ordered-list",
+  "title": "User defined ordered list",
+  "coverImage": {
+    "filePath": "/images/reorder-list.png"
+  },
+  "description": "If you want to save a set of records in a relational database so that be reorder-able,  you will encounter some challenges. I have shared my solution to these challenges.",
+  "publishDate": "2024-02-02T00:00:00Z",
+  "Markdown": {
+    "filePath": "markdowns/user-defined-ordered-list.md"
+  }
+}

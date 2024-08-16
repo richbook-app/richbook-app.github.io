@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>User defined ordered list | Mo Rahimi-</title>
+    
+    <meta name="description" content="If you want to save a set of records in a relational database so that be reorder-able,  you will encounter some challenges. I have shared my solution to these challenges.">
+
+    <meta name="author" content="" />
+    <title>Grayscale - Start Bootstrap Theme</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
+            crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round"
+          rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet" />
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+          rel="stylesheet" />
+    <link href="/Blog/css/styles.css" rel="stylesheet" />
+    
+</head>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav b-vbs3t5pnho class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div b-vbs3t5pnho class="container px-4 px-lg-5">
+            <a b-vbs3t5pnho class="navbar-brand" href="#page-top">Home</a>
+            <button b-vbs3t5pnho class="navbar-toggler navbar-toggler-right"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarResponsive"
+                    aria-controls="navbarResponsive"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                Menu
+                <i b-vbs3t5pnho class="fas fa-bars"></i>
+            </button>
+            <div b-vbs3t5pnho class="collapse navbar-collapse" id="navbarResponsive">
+                <ul b-vbs3t5pnho class="navbar-nav ms-auto">
+                    <li b-vbs3t5pnho class="nav-item">
+                        <a b-vbs3t5pnho class="nav-link" href="#about">About</a>
+                    </li>
+                    <li b-vbs3t5pnho class="nav-item">
+                        <a b-vbs3t5pnho class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li b-vbs3t5pnho class="nav-item">
+                        <a b-vbs3t5pnho class="nav-link" href="#signup">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <article class="blog-post px-3 py-5 p-md-5">
+    <div class="container">
+        <header class="blog-post-header">
+            <h2 class="title mb-2">User defined ordered list</h2>
+            <div class="meta mb-3">
+                <span class="date">
+                    published <label x-data="app" x-text="daysPassed('2/2/2024 12:00:00 AM &#x2B;00:00')"></label> days ago
+                </span>
+            </div>
+            <div class="bg-light mt-3 mb-5">
+                <img src="/images/reorder-list.png" class="mx-auto d-block" />
+            </div>
+        </header>
+
+        <div class="blog-post-body">
+            <div class="markdown">
+                <h3>user-defined-ordered-list</h3>
+<p>imagine you have a set of categories, and every category has a set of products.</p>
+<ul>
+<li><p>the products of every category must be saved and retrieved ordered.</p>
+</li>
+<li><p>the order of every product set will be determined by the user frequently.</p>
+</li>
+</ul>
+<h3>Solutions</h3>
+<ol>
+<li>Linked List: Implement a linked list of products by adding a next_product field to the product table.</li>
+<li>Serialize Ordered Ids: serialize ordered ids to a comma-separated text, JSON, or  XML an apply the order of every set to that serialized content.</li>
+<li>Rank Field: add an order_index field to product table which keeps the rank of product in its category.</li>
+</ol>
+<h3>1. Linked List</h3>
+<p>The main benefit of a linked list is that the items can easily be inserted or removed without reallocation or reorganization of the entire structure.
+in this approach add, insert and delete of the record is efficient but read a filtered and sorted list is not optimal. it's because of the function of the relational database. a relational database is not proper for linked data.</p>
+<ul>
+<li><em>Change(efficient)</em></li>
+<li><em>Read(inefficient)</em></li>
+</ul>
+<h3>2. Serialized Order Ids</h3>
+<p>in this approach, we store the order of the list into a none relational database. it causes to change the order of list become easy because we eliminate the limitation of the relational database. imagine you have a list of product ids contains 1,2,3,4,5,6 you can save different order of them such a form:</p>
+<p>&quot;4,2,1,3,5,6&quot;</p>
+<p>every time you want to change or read the products list you need to deserialize this data. you can serialize the ordered product as XML, JSON, or any mechanism you are able to serialize and deserialize a list.</p>
+<p>this approach takes a lot of resources both memory and processor for a large list because you must process, serialize and deserialize lists in the application memory and application processor. but should be mentioned that this method could be a good choice for small lists.</p>
+<ul>
+<li><em>Change(inefficient)</em></li>
+<li><em>Read(inefficient)</em></li>
+</ul>
+<h3>3. Rank Field</h3>
+<p>In this approach, you are saving the position of the item based on the order. The ID of the item never changes, but you can update the index to match the order that you want. the complex part of this approach is in the index update algorithm. so change the order of the list could be inefficient instead retrieve the list is so performant for the relational database.</p>
+<ul>
+<li><em>Change(inefficient)</em></li>
+<li><em>Read(efficient)</em></li>
+</ul>
+<p>there are a variety of methods to update the order index, for example, I can name these methods:</p>
+<ol>
+<li>leave a “gap” between the indexes</li>
+<li>Use decimal index and use float part of the index</li>
+<li>Regenerate the order field after any change.</li>
+<li>Get Order numbers directly from the client.</li>
+<li>USe Fraction Algorithm to generate indexes.</li>
+</ol>
+<p>I suggest studying the following article regarding the True Fractions algorithm.</p>
+<p><a href="https://begriffs.com/posts/2018-03-20-user-defined-order.html">User-defined Order in SQL</a>.</p>
+<p>I have used the Fraction Algorithm in my projects and  I have implemented an example of the Rank Field approach by Fraction Algorithm. I have used the EF Core and InMemory Database in this code sample. I recommend you take a look at this code sample in following link:</p>
+<p><a href="https://dotnetfiddle.net/Myhoap">Rank Field By Fraction Algorithm</a></p>
+
+            </div>
+        </div>
+        <div class="giscus" id="comments">
+        </div>
+    </div><!--//container-->
+</article>
+<script>
+    document.addEventListener('alpine:init', () => {
+        //console.log(Alpine);
+        Alpine.data('app', () => ({
+            daysPassed(dateString) {
+                // Handle potential invalid date strings
+                return daysPassed(dateString);
+            }
+        }))
+    });
+</script>
+    
+    <!-- Footer-->
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="/Blog/js/scripts.js"></script>
+</body>
+</html>
+
+
