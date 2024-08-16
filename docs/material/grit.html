@@ -49,64 +49,16 @@
         </symbol>
     </svg>
 
-    <div b-3agf2iwpo4 class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-        <button b-3agf2iwpo4 class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
-                id="bd-theme"
-                type="button"
-                aria-expanded="false"
-                data-bs-toggle="dropdown"
-                aria-label="Toggle theme (auto)">
-            <svg b-3agf2iwpo4 class="bi my-1 theme-icon-active" width="1em" height="1em"><use b-3agf2iwpo4 href="#circle-half"></use></svg>
-            <span b-3agf2iwpo4 class="visually-hidden" id="bd-theme-text">Toggle theme</span>
-        </button>
-        <ul b-3agf2iwpo4 class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
-            <li b-3agf2iwpo4>
-                <button b-3agf2iwpo4 type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
-                    <svg b-3agf2iwpo4 class="bi me-2 opacity-50" width="1em" height="1em"><use b-3agf2iwpo4 href="#sun-fill"></use></svg>
-                    Light
-                    <svg b-3agf2iwpo4 class="bi ms-auto d-none" width="1em" height="1em"><use b-3agf2iwpo4 href="#check2"></use></svg>
-                </button>
-            </li>
-            <li b-3agf2iwpo4>
-                <button b-3agf2iwpo4 type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
-                    <svg b-3agf2iwpo4 class="bi me-2 opacity-50" width="1em" height="1em"><use b-3agf2iwpo4 href="#moon-stars-fill"></use></svg>
-                    Dark
-                    <svg b-3agf2iwpo4 class="bi ms-auto d-none" width="1em" height="1em"><use b-3agf2iwpo4 href="#check2"></use></svg>
-                </button>
-            </li>
-            <li b-3agf2iwpo4>
-                <button b-3agf2iwpo4 type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
-                    <svg b-3agf2iwpo4 class="bi me-2 opacity-50" width="1em" height="1em"><use b-3agf2iwpo4 href="#circle-half"></use></svg>
-                    Auto
-                    <svg b-3agf2iwpo4 class="bi ms-auto d-none" width="1em" height="1em"><use b-3agf2iwpo4 href="#check2"></use></svg>
-                </button>
-            </li>
-        </ul>
-    </div>
-
-
     <nav b-3agf2iwpo4 class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div b-3agf2iwpo4 class="container-fluid">
-            <a b-3agf2iwpo4 class="navbar-brand" href="#">Parrot</a>
+            <a b-3agf2iwpo4 class="navbar-brand" href="/">Parrot</a>
             <button b-3agf2iwpo4 class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span b-3agf2iwpo4 class="navbar-toggler-icon"></span>
             </button>
             <div b-3agf2iwpo4 class="collapse navbar-collapse" id="navbarCollapse">
                 <ul b-3agf2iwpo4 class="navbar-nav me-auto mb-2 mb-md-0">
                     <li b-3agf2iwpo4 class="nav-item">
-                        <a b-3agf2iwpo4 class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                </ul>
-                <ul b-3agf2iwpo4 class="navbar-nav ms-auto">
-                    <li b-3agf2iwpo4 class="nav-item dropdown">
-                        <a b-3agf2iwpo4 class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Username
-                        </a>
-                        <ul b-3agf2iwpo4 class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
-                            <li b-3agf2iwpo4><a b-3agf2iwpo4 class="dropdown-item" href="#">Profile</a></li>
-                            <li b-3agf2iwpo4><hr b-3agf2iwpo4 class="dropdown-divider"></li>
-                            <li b-3agf2iwpo4><a b-3agf2iwpo4 class="dropdown-item" href="#">Sign Out</a></li>
-                        </ul>
+                        <a b-3agf2iwpo4 class="nav-link active" aria-current="page" href="/">Home</a>
                     </li>
                 </ul>
             </div>
@@ -211,7 +163,7 @@
 
     window.player = await VidstackPlayer.create({
         target: "#target",
-        title: "Sprite Fight",
+        title: "Grit: the power of passion and perseverance | Angela Lee Duckworth",
         playsinline: true,
         src: "https://www.youtube.com/watch?v=H14bBuluwB8",
         posterLoad: "visible",
@@ -232,38 +184,801 @@
     const tracks = [
 
             {
-        start: 12.5,
-        end: 14.5,
-        transcript: "when I was 20 years old",
-        translate: "وقتی بیست ساله بودم"
+        id: 2,
+        start: 12.863,
+        end: 14.93,
+        transcript: "When I was 27 years old,"
         },
         
             {
-        start: 14.5,
-        end: 18,
-        transcript: "I left a very demanding job in management consulting",
-        translate: "من یک شغل بسیار پرمشغله و چالش‌ برانگیز در زمینه مشاوره مدیریت را ترک کردم"
+        id: 3,
+        start: 14.963,
+        end: 18.263,
+        transcript: "I left a very demanding job in management consulting"
         },
         
             {
-        start: 18,
-        end: 22,
-        transcript: "for a job that was even more demanding teaching!",
-        translate: "برای یک شغل که حتی پرمشغله‌تر و چالش‌برانگیزتر بود: تدریس"
+        id: 4,
+        start: 18.297,
+        end: 22.063,
+        transcript: "for a job that was even more demanding: teaching."
         },
         
             {
-        start: 22,
-        end: 25.5,
-        transcript: "I went to teach seventh graders math",
-        translate: "من برای تدریس ریاضی به دانش‌آموزان کلاس هفتم رفتم"
+        id: 5,
+        start: 23.297,
+        end: 25.763,
+        transcript: "I went to teach seventh graders math"
         },
         
             {
-        start: 25.5,
-        end: 27,
-        transcript: "in the New York City public schools.",
-        translate: "در مدارس دولتی شهر نیویورک"
+        id: 6,
+        start: 25.797,
+        end: 27.697,
+        transcript: "in the New York City public schools."
+        },
+        
+            {
+        id: 7,
+        start: 28.197,
+        end: 31.063,
+        transcript: "And like any teacher, I made quizzes and tests."
+        },
+        
+            {
+        id: 8,
+        start: 31.097,
+        end: 33.063,
+        transcript: "I gave out homework assignments."
+        },
+        
+            {
+        id: 9,
+        start: 33.097,
+        end: 35.83,
+        transcript: "When the work came back, I calculated grades."
+        },
+        
+            {
+        id: 10,
+        start: 36.763,
+        end: 41.297,
+        transcript: "What struck me was that IQ was not the only difference"
+        },
+        
+            {
+        id: 11,
+        start: 41.33,
+        end: 44.463,
+        transcript: "between my best and my worst students."
+        },
+        
+            {
+        id: 12,
+        start: 45.03,
+        end: 49.797,
+        transcript: "Some of my strongest performers did not have stratospheric IQ scores."
+        },
+        
+            {
+        id: 13,
+        start: 50.33,
+        end: 53.563,
+        transcript: "Some of my smartest kids weren't doing so well."
+        },
+        
+            {
+        id: 14,
+        start: 54.297,
+        end: 55.697,
+        transcript: "And that got me thinking."
+        },
+        
+            {
+        id: 15,
+        start: 56.43,
+        end: 59.397,
+        transcript: "The kinds of things you need to learn in seventh grade math,"
+        },
+        
+            {
+        id: 16,
+        start: 59.397,
+        end: 64.33,
+        transcript: "sure, they're hard: ratios, decimals, the area of a parallelogram."
+        },
+        
+            {
+        id: 17,
+        start: 64.663,
+        end: 67.33,
+        transcript: "But these concepts are not impossible,"
+        },
+        
+            {
+        id: 18,
+        start: 67.363,
+        end: 71.463,
+        transcript: "and I was firmly convinced that every one of my students"
+        },
+        
+            {
+        id: 19,
+        start: 71.497,
+        end: 74.063,
+        transcript: "could learn the material"
+        },
+        
+            {
+        id: 20,
+        start: 74.097,
+        end: 76.163,
+        transcript: "if they worked hard and long enough."
+        },
+        
+            {
+        id: 21,
+        start: 76.83,
+        end: 79.297,
+        transcript: "After several more years of teaching,"
+        },
+        
+            {
+        id: 22,
+        start: 79.33,
+        end: 83.063,
+        transcript: "I came to the conclusion that what we need in education"
+        },
+        
+            {
+        id: 23,
+        start: 83.097,
+        end: 86.53,
+        transcript: "is a much better understanding of students and learning"
+        },
+        
+            {
+        id: 24,
+        start: 86.563,
+        end: 88.897,
+        transcript: "from a motivational perspective,"
+        },
+        
+            {
+        id: 25,
+        start: 88.897,
+        end: 91.13,
+        transcript: "from a psychological perspective."
+        },
+        
+            {
+        id: 26,
+        start: 91.797,
+        end: 97.297,
+        transcript: "In education, the one thing we know how to measure best is IQ."
+        },
+        
+            {
+        id: 27,
+        start: 98.163,
+        end: 102.03,
+        transcript: "But what if doing well in school and in life"
+        },
+        
+            {
+        id: 28,
+        start: 102.03,
+        end: 104.13,
+        transcript: "depends on much more"
+        },
+        
+            {
+        id: 29,
+        start: 104.163,
+        end: 107.53,
+        transcript: "than your ability to learn quickly and easily?"
+        },
+        
+            {
+        id: 30,
+        start: 108.363,
+        end: 110.297,
+        transcript: "So I left the classroom,"
+        },
+        
+            {
+        id: 31,
+        start: 110.33,
+        end: 113.297,
+        transcript: "and I went to graduate school to become a psychologist."
+        },
+        
+            {
+        id: 32,
+        start: 113.863,
+        end: 116.03,
+        transcript: "I started studying kids and adults"
+        },
+        
+            {
+        id: 33,
+        start: 116.063,
+        end: 118.897,
+        transcript: "in all kinds of super challenging settings,"
+        },
+        
+            {
+        id: 34,
+        start: 118.897,
+        end: 121.33,
+        transcript: "and in every study my question was,"
+        },
+        
+            {
+        id: 35,
+        start: 121.363,
+        end: 123.597,
+        transcript: "who is successful here and why?"
+        },
+        
+            {
+        id: 36,
+        start: 124.397,
+        end: 127.963,
+        transcript: "My research team and I went to West Point Military Academy."
+        },
+        
+            {
+        id: 37,
+        start: 128.463,
+        end: 130.13,
+        transcript: "We tried to predict which cadets"
+        },
+        
+            {
+        id: 38,
+        start: 130.163,
+        end: 133.663,
+        transcript: "would stay in military training and which would drop out."
+        },
+        
+            {
+        id: 39,
+        start: 134.397,
+        end: 136.63,
+        transcript: "We went to the National Spelling Bee"
+        },
+        
+            {
+        id: 40,
+        start: 136.663,
+        end: 141.197,
+        transcript: "and tried to predict which children would advance farthest in competition."
+        },
+        
+            {
+        id: 41,
+        start: 141.863,
+        end: 145.93,
+        transcript: "We studied rookie teachers working in really tough neighborhoods,"
+        },
+        
+            {
+        id: 42,
+        start: 145.93,
+        end: 149.363,
+        transcript: "asking which teachers are still going to be here in teaching"
+        },
+        
+            {
+        id: 43,
+        start: 149.397,
+        end: 151.363,
+        transcript: "by the end of the school year,"
+        },
+        
+            {
+        id: 44,
+        start: 151.397,
+        end: 154.43,
+        transcript: "and of those, who will be the most effective"
+        },
+        
+            {
+        id: 45,
+        start: 154.43,
+        end: 157.13,
+        transcript: "at improving learning outcomes for their students?"
+        },
+        
+            {
+        id: 46,
+        start: 157.597,
+        end: 159.83,
+        transcript: "We partnered with private companies, asking,"
+        },
+        
+            {
+        id: 47,
+        start: 159.83,
+        end: 162.53,
+        transcript: "which of these salespeople is going to keep their jobs?"
+        },
+        
+            {
+        id: 48,
+        start: 162.563,
+        end: 164.43,
+        transcript: "And who's going to earn the most money?"
+        },
+        
+            {
+        id: 49,
+        start: 164.797,
+        end: 167.463,
+        transcript: "In all those very different contexts,"
+        },
+        
+            {
+        id: 50,
+        start: 167.463,
+        end: 171.963,
+        transcript: "one characteristic emerged as a significant predictor of success."
+        },
+        
+            {
+        id: 51,
+        start: 172.463,
+        end: 174.23,
+        transcript: "And it wasn't social intelligence."
+        },
+        
+            {
+        id: 52,
+        start: 174.663,
+        end: 177.63,
+        transcript: "It wasn't good looks, physical health,"
+        },
+        
+            {
+        id: 53,
+        start: 177.663,
+        end: 178.997,
+        transcript: "and it wasn't IQ."
+        },
+        
+            {
+        id: 54,
+        start: 179.763,
+        end: 180.863,
+        transcript: "It was grit."
+        },
+        
+            {
+        id: 55,
+        start: 181.897,
+        end: 186.53,
+        transcript: "Grit is passion and perseverance for very long-term goals."
+        },
+        
+            {
+        id: 56,
+        start: 186.997,
+        end: 188.663,
+        transcript: "Grit is having stamina."
+        },
+        
+            {
+        id: 57,
+        start: 189.23,
+        end: 193.43,
+        transcript: "Grit is sticking with your future, day in, day out,"
+        },
+        
+            {
+        id: 58,
+        start: 193.463,
+        end: 196.83,
+        transcript: "not just for the week, not just for the month,"
+        },
+        
+            {
+        id: 59,
+        start: 196.863,
+        end: 198.363,
+        transcript: "but for years,"
+        },
+        
+            {
+        id: 60,
+        start: 198.397,
+        end: 202.13,
+        transcript: "and working really hard to make that future a reality."
+        },
+        
+            {
+        id: 61,
+        start: 202.963,
+        end: 207.23,
+        transcript: "Grit is living life like it's a marathon, not a sprint."
+        },
+        
+            {
+        id: 62,
+        start: 208.163,
+        end: 209.597,
+        transcript: "A few years ago,"
+        },
+        
+            {
+        id: 63,
+        start: 209.597,
+        end: 212.63,
+        transcript: "I started studying grit in the Chicago public schools."
+        },
+        
+            {
+        id: 64,
+        start: 213.13,
+        end: 215.43,
+        transcript: "I asked thousands of high school juniors"
+        },
+        
+            {
+        id: 65,
+        start: 215.463,
+        end: 217.263,
+        transcript: "to take grit questionnaires,"
+        },
+        
+            {
+        id: 66,
+        start: 217.297,
+        end: 219.263,
+        transcript: "and then waited around more than a year"
+        },
+        
+            {
+        id: 67,
+        start: 219.263,
+        end: 220.63,
+        transcript: "to see who would graduate."
+        },
+        
+            {
+        id: 68,
+        start: 221.53,
+        end: 223.73,
+        transcript: "Turns out that grittier kids"
+        },
+        
+            {
+        id: 69,
+        start: 223.763,
+        end: 226.93,
+        transcript: "were significantly more likely to graduate,"
+        },
+        
+            {
+        id: 70,
+        start: 226.963,
+        end: 230.73,
+        transcript: "even when I matched them on every characteristic I could measure,"
+        },
+        
+            {
+        id: 71,
+        start: 230.763,
+        end: 232.997,
+        transcript: "things like family income,"
+        },
+        
+            {
+        id: 72,
+        start: 233.03,
+        end: 235.763,
+        transcript: "standardized achievement test scores,"
+        },
+        
+            {
+        id: 73,
+        start: 235.763,
+        end: 238.797,
+        transcript: "even how safe kids felt when they were at school."
+        },
+        
+            {
+        id: 74,
+        start: 239.363,
+        end: 242.297,
+        transcript: "So it's not just at West Point or the National Spelling Bee"
+        },
+        
+            {
+        id: 75,
+        start: 242.33,
+        end: 243.463,
+        transcript: "that grit matters."
+        },
+        
+            {
+        id: 76,
+        start: 243.463,
+        end: 245.43,
+        transcript: "It's also in school,"
+        },
+        
+            {
+        id: 77,
+        start: 245.43,
+        end: 247.83,
+        transcript: "especially for kids at risk for dropping out."
+        },
+        
+            {
+        id: 78,
+        start: 249.097,
+        end: 252.063,
+        transcript: "To me, the most shocking thing about grit"
+        },
+        
+            {
+        id: 79,
+        start: 252.097,
+        end: 254.063,
+        transcript: "is how little we know,"
+        },
+        
+            {
+        id: 80,
+        start: 254.063,
+        end: 256.563,
+        transcript: "how little science knows, about building it."
+        },
+        
+            {
+        id: 81,
+        start: 256.997,
+        end: 259.262,
+        transcript: "Every day, parents and teachers ask me,"
+        },
+        
+            {
+        id: 82,
+        start: 259.262,
+        end: 261.462,
+        transcript: "How do I build grit in kids?"
+        },
+        
+            {
+        id: 83,
+        start: 261.497,
+        end: 264.43,
+        transcript: "What do I do to teach kids a solid work ethic?"
+        },
+        
+            {
+        id: 84,
+        start: 264.763,
+        end: 267.23,
+        transcript: "How do I keep them motivated for the long run?"
+        },
+        
+            {
+        id: 85,
+        start: 267.863,
+        end: 269.83,
+        transcript: "The honest answer is,"
+        },
+        
+            {
+        id: 86,
+        start: 269.863,
+        end: 270.93,
+        transcript: "I don't know."
+        },
+        
+            {
+        id: 87,
+        start: 270.963,
+        end: 272.43,
+        transcript: "(Laughter)"
+        },
+        
+            {
+        id: 88,
+        start: 272.463,
+        end: 275.497,
+        transcript: "What I do know is that talent doesn't make you gritty."
+        },
+        
+            {
+        id: 89,
+        start: 275.53,
+        end: 277.863,
+        transcript: "Our data show very clearly"
+        },
+        
+            {
+        id: 90,
+        start: 277.863,
+        end: 280.297,
+        transcript: "that there are many talented individuals"
+        },
+        
+            {
+        id: 91,
+        start: 280.297,
+        end: 283.43,
+        transcript: "who simply do not follow through on their commitments."
+        },
+        
+            {
+        id: 92,
+        start: 283.797,
+        end: 288.03,
+        transcript: "In fact, in our data, grit is usually unrelated"
+        },
+        
+            {
+        id: 93,
+        start: 288.063,
+        end: 291.163,
+        transcript: "or even inversely related to measures of talent."
+        },
+        
+            {
+        id: 94,
+        start: 292.463,
+        end: 296.563,
+        transcript: "So far, the best idea I've heard about building grit in kids"
+        },
+        
+            {
+        id: 95,
+        start: 296.597,
+        end: 298.797,
+        transcript: "is something called growth mindset."
+        },
+        
+            {
+        id: 96,
+        start: 299.43,
+        end: 303.13,
+        transcript: "This is an idea developed at Stanford University by Carol Dweck,"
+        },
+        
+            {
+        id: 97,
+        start: 303.13,
+        end: 308.23,
+        transcript: "and it is the belief that the ability to learn is not fixed,"
+        },
+        
+            {
+        id: 98,
+        start: 308.263,
+        end: 310.73,
+        transcript: "that it can change with your effort."
+        },
+        
+            {
+        id: 99,
+        start: 311.43,
+        end: 312.763,
+        transcript: "Dr. Dweck has shown"
+        },
+        
+            {
+        id: 100,
+        start: 312.763,
+        end: 315.93,
+        transcript: "that when kids read and learn about the brain"
+        },
+        
+            {
+        id: 101,
+        start: 315.93,
+        end: 319.397,
+        transcript: "and how it changes and grows in response to challenge,"
+        },
+        
+            {
+        id: 102,
+        start: 319.43,
+        end: 323.43,
+        transcript: "they're much more likely to persevere when they fail,"
+        },
+        
+            {
+        id: 103,
+        start: 323.463,
+        end: 328.063,
+        transcript: "because they don't believe that failure is a permanent condition."
+        },
+        
+            {
+        id: 104,
+        start: 329.063,
+        end: 332.163,
+        transcript: "So growth mindset is a great idea for building grit."
+        },
+        
+            {
+        id: 105,
+        start: 332.73,
+        end: 334.263,
+        transcript: "But we need more."
+        },
+        
+            {
+        id: 106,
+        start: 334.83,
+        end: 336.93,
+        transcript: "And that's where I'm going to end my remarks,"
+        },
+        
+            {
+        id: 107,
+        start: 336.93,
+        end: 338.297,
+        transcript: "because that's where we are."
+        },
+        
+            {
+        id: 108,
+        start: 338.297,
+        end: 340.463,
+        transcript: "That's the work that stands before us."
+        },
+        
+            {
+        id: 109,
+        start: 340.497,
+        end: 344.397,
+        transcript: "We need to take our best ideas, our strongest intuitions,"
+        },
+        
+            {
+        id: 110,
+        start: 344.397,
+        end: 346.03,
+        transcript: "and we need to test them."
+        },
+        
+            {
+        id: 111,
+        start: 346.497,
+        end: 349.23,
+        transcript: "We need to measure whether we've been successful,"
+        },
+        
+            {
+        id: 112,
+        start: 349.23,
+        end: 352.963,
+        transcript: "and we have to be willing to fail, to be wrong,"
+        },
+        
+            {
+        id: 113,
+        start: 352.963,
+        end: 355.597,
+        transcript: "to start over again with lessons learned."
+        },
+        
+            {
+        id: 114,
+        start: 356.33,
+        end: 359.263,
+        transcript: "In other words, we need to be gritty"
+        },
+        
+            {
+        id: 115,
+        start: 359.297,
+        end: 361.763,
+        transcript: "about getting our kids grittier."
         },
                     ]
     tracks.sort((a, b) => a.end - b.end);

@@ -8,34 +8,688 @@
   "YoutubeVideoId": "H14bBuluwB8",
   "tracksList": [
     {
-      "start": 12.5,
-      "end": 14.5,
-      "transcript": "when I was 20 years old",
-      "translate": "وقتی بیست ساله بودم"
+      "Id": "2",
+      "Start": 12.863,
+      "End": 14.93,
+      "Transcript": "When I was 27 years old,"
     },
     {
-      "start": 14.5,
-      "end": 18,
-      "transcript": "I left a very demanding job in management consulting",
-      "translate": "من یک شغل بسیار پرمشغله و چالش‌ برانگیز در زمینه مشاوره مدیریت را ترک کردم"
+      "Id": "3",
+      "Start": 14.963,
+      "End": 18.263,
+      "Transcript": "I left a very demanding job in management consulting"
     },
     {
-      "start": 18,
-      "end": 22,
-      "transcript": "for a job that was even more demanding teaching!",
-      "translate": "برای یک شغل که حتی پرمشغله‌تر و چالش‌برانگیزتر بود: تدریس"
+      "Id": "4",
+      "Start": 18.297,
+      "End": 22.063,
+      "Transcript": "for a job that was even more demanding: teaching."
     },
     {
-      "start": 22,
-      "end": 25.5,
-      "transcript": "I went to teach seventh graders math",
-      "translate": "من برای تدریس ریاضی به دانش‌آموزان کلاس هفتم رفتم"
+      "Id": "5",
+      "Start": 23.297,
+      "End": 25.763,
+      "Transcript": "I went to teach seventh graders math"
     },
     {
-      "start": 25.5,
-      "end": 27,
-      "transcript": "in the New York City public schools.",
-      "translate": "در مدارس دولتی شهر نیویورک"
+      "Id": "6",
+      "Start": 25.797,
+      "End": 27.697,
+      "Transcript": "in the New York City public schools."
+    },
+    {
+      "Id": "7",
+      "Start": 28.197,
+      "End": 31.063,
+      "Transcript": "And like any teacher, I made quizzes and tests."
+    },
+    {
+      "Id": "8",
+      "Start": 31.097,
+      "End": 33.063,
+      "Transcript": "I gave out homework assignments."
+    },
+    {
+      "Id": "9",
+      "Start": 33.097,
+      "End": 35.83,
+      "Transcript": "When the work came back, I calculated grades."
+    },
+    {
+      "Id": "10",
+      "Start": 36.763,
+      "End": 41.297,
+      "Transcript": "What struck me was that IQ was not the only difference"
+    },
+    {
+      "Id": "11",
+      "Start": 41.33,
+      "End": 44.463,
+      "Transcript": "between my best and my worst students."
+    },
+    {
+      "Id": "12",
+      "Start": 45.03,
+      "End": 49.797,
+      "Transcript": "Some of my strongest performers did not have stratospheric IQ scores."
+    },
+    {
+      "Id": "13",
+      "Start": 50.33,
+      "End": 53.563,
+      "Transcript": "Some of my smartest kids weren\u0027t doing so well."
+    },
+    {
+      "Id": "14",
+      "Start": 54.297,
+      "End": 55.697,
+      "Transcript": "And that got me thinking."
+    },
+    {
+      "Id": "15",
+      "Start": 56.43,
+      "End": 59.397,
+      "Transcript": "The kinds of things you need to learn in seventh grade math,"
+    },
+    {
+      "Id": "16",
+      "Start": 59.397,
+      "End": 64.33,
+      "Transcript": "sure, they\u0027re hard: ratios, decimals, the area of a parallelogram."
+    },
+    {
+      "Id": "17",
+      "Start": 64.663,
+      "End": 67.33,
+      "Transcript": "But these concepts are not impossible,"
+    },
+    {
+      "Id": "18",
+      "Start": 67.363,
+      "End": 71.463,
+      "Transcript": "and I was firmly convinced that every one of my students"
+    },
+    {
+      "Id": "19",
+      "Start": 71.497,
+      "End": 74.063,
+      "Transcript": "could learn the material"
+    },
+    {
+      "Id": "20",
+      "Start": 74.097,
+      "End": 76.163,
+      "Transcript": "if they worked hard and long enough."
+    },
+    {
+      "Id": "21",
+      "Start": 76.83,
+      "End": 79.297,
+      "Transcript": "After several more years of teaching,"
+    },
+    {
+      "Id": "22",
+      "Start": 79.33,
+      "End": 83.063,
+      "Transcript": "I came to the conclusion that what we need in education"
+    },
+    {
+      "Id": "23",
+      "Start": 83.097,
+      "End": 86.53,
+      "Transcript": "is a much better understanding of students and learning"
+    },
+    {
+      "Id": "24",
+      "Start": 86.563,
+      "End": 88.897,
+      "Transcript": "from a motivational perspective,"
+    },
+    {
+      "Id": "25",
+      "Start": 88.897,
+      "End": 91.13,
+      "Transcript": "from a psychological perspective."
+    },
+    {
+      "Id": "26",
+      "Start": 91.797,
+      "End": 97.297,
+      "Transcript": "In education, the one thing we know how to measure best is IQ."
+    },
+    {
+      "Id": "27",
+      "Start": 98.163,
+      "End": 102.03,
+      "Transcript": "But what if doing well in school and in life"
+    },
+    {
+      "Id": "28",
+      "Start": 102.03,
+      "End": 104.13,
+      "Transcript": "depends on much more"
+    },
+    {
+      "Id": "29",
+      "Start": 104.163,
+      "End": 107.53,
+      "Transcript": "than your ability to learn quickly and easily?"
+    },
+    {
+      "Id": "30",
+      "Start": 108.363,
+      "End": 110.297,
+      "Transcript": "So I left the classroom,"
+    },
+    {
+      "Id": "31",
+      "Start": 110.33,
+      "End": 113.297,
+      "Transcript": "and I went to graduate school to become a psychologist."
+    },
+    {
+      "Id": "32",
+      "Start": 113.863,
+      "End": 116.03,
+      "Transcript": "I started studying kids and adults"
+    },
+    {
+      "Id": "33",
+      "Start": 116.063,
+      "End": 118.897,
+      "Transcript": "in all kinds of super challenging settings,"
+    },
+    {
+      "Id": "34",
+      "Start": 118.897,
+      "End": 121.33,
+      "Transcript": "and in every study my question was,"
+    },
+    {
+      "Id": "35",
+      "Start": 121.363,
+      "End": 123.597,
+      "Transcript": "who is successful here and why?"
+    },
+    {
+      "Id": "36",
+      "Start": 124.397,
+      "End": 127.963,
+      "Transcript": "My research team and I went to West Point Military Academy."
+    },
+    {
+      "Id": "37",
+      "Start": 128.463,
+      "End": 130.13,
+      "Transcript": "We tried to predict which cadets"
+    },
+    {
+      "Id": "38",
+      "Start": 130.163,
+      "End": 133.663,
+      "Transcript": "would stay in military training and which would drop out."
+    },
+    {
+      "Id": "39",
+      "Start": 134.397,
+      "End": 136.63,
+      "Transcript": "We went to the National Spelling Bee"
+    },
+    {
+      "Id": "40",
+      "Start": 136.663,
+      "End": 141.197,
+      "Transcript": "and tried to predict which children would advance farthest in competition."
+    },
+    {
+      "Id": "41",
+      "Start": 141.863,
+      "End": 145.93,
+      "Transcript": "We studied rookie teachers working in really tough neighborhoods,"
+    },
+    {
+      "Id": "42",
+      "Start": 145.93,
+      "End": 149.363,
+      "Transcript": "asking which teachers are still going to be here in teaching"
+    },
+    {
+      "Id": "43",
+      "Start": 149.397,
+      "End": 151.363,
+      "Transcript": "by the end of the school year,"
+    },
+    {
+      "Id": "44",
+      "Start": 151.397,
+      "End": 154.43,
+      "Transcript": "and of those, who will be the most effective"
+    },
+    {
+      "Id": "45",
+      "Start": 154.43,
+      "End": 157.13,
+      "Transcript": "at improving learning outcomes for their students?"
+    },
+    {
+      "Id": "46",
+      "Start": 157.597,
+      "End": 159.83,
+      "Transcript": "We partnered with private companies, asking,"
+    },
+    {
+      "Id": "47",
+      "Start": 159.83,
+      "End": 162.53,
+      "Transcript": "which of these salespeople is going to keep their jobs?"
+    },
+    {
+      "Id": "48",
+      "Start": 162.563,
+      "End": 164.43,
+      "Transcript": "And who\u0027s going to earn the most money?"
+    },
+    {
+      "Id": "49",
+      "Start": 164.797,
+      "End": 167.463,
+      "Transcript": "In all those very different contexts,"
+    },
+    {
+      "Id": "50",
+      "Start": 167.463,
+      "End": 171.963,
+      "Transcript": "one characteristic emerged as a significant predictor of success."
+    },
+    {
+      "Id": "51",
+      "Start": 172.463,
+      "End": 174.23,
+      "Transcript": "And it wasn\u0027t social intelligence."
+    },
+    {
+      "Id": "52",
+      "Start": 174.663,
+      "End": 177.63,
+      "Transcript": "It wasn\u0027t good looks, physical health,"
+    },
+    {
+      "Id": "53",
+      "Start": 177.663,
+      "End": 178.997,
+      "Transcript": "and it wasn\u0027t IQ."
+    },
+    {
+      "Id": "54",
+      "Start": 179.763,
+      "End": 180.863,
+      "Transcript": "It was grit."
+    },
+    {
+      "Id": "55",
+      "Start": 181.897,
+      "End": 186.53,
+      "Transcript": "Grit is passion and perseverance for very long-term goals."
+    },
+    {
+      "Id": "56",
+      "Start": 186.997,
+      "End": 188.663,
+      "Transcript": "Grit is having stamina."
+    },
+    {
+      "Id": "57",
+      "Start": 189.23,
+      "End": 193.43,
+      "Transcript": "Grit is sticking with your future, day in, day out,"
+    },
+    {
+      "Id": "58",
+      "Start": 193.463,
+      "End": 196.83,
+      "Transcript": "not just for the week, not just for the month,"
+    },
+    {
+      "Id": "59",
+      "Start": 196.863,
+      "End": 198.363,
+      "Transcript": "but for years,"
+    },
+    {
+      "Id": "60",
+      "Start": 198.397,
+      "End": 202.13,
+      "Transcript": "and working really hard to make that future a reality."
+    },
+    {
+      "Id": "61",
+      "Start": 202.963,
+      "End": 207.23,
+      "Transcript": "Grit is living life like it\u0027s a marathon, not a sprint."
+    },
+    {
+      "Id": "62",
+      "Start": 208.163,
+      "End": 209.597,
+      "Transcript": "A few years ago,"
+    },
+    {
+      "Id": "63",
+      "Start": 209.597,
+      "End": 212.63,
+      "Transcript": "I started studying grit in the Chicago public schools."
+    },
+    {
+      "Id": "64",
+      "Start": 213.13,
+      "End": 215.43,
+      "Transcript": "I asked thousands of high school juniors"
+    },
+    {
+      "Id": "65",
+      "Start": 215.463,
+      "End": 217.263,
+      "Transcript": "to take grit questionnaires,"
+    },
+    {
+      "Id": "66",
+      "Start": 217.297,
+      "End": 219.263,
+      "Transcript": "and then waited around more than a year"
+    },
+    {
+      "Id": "67",
+      "Start": 219.263,
+      "End": 220.63,
+      "Transcript": "to see who would graduate."
+    },
+    {
+      "Id": "68",
+      "Start": 221.53,
+      "End": 223.73,
+      "Transcript": "Turns out that grittier kids"
+    },
+    {
+      "Id": "69",
+      "Start": 223.763,
+      "End": 226.93,
+      "Transcript": "were significantly more likely to graduate,"
+    },
+    {
+      "Id": "70",
+      "Start": 226.963,
+      "End": 230.73,
+      "Transcript": "even when I matched them on every characteristic I could measure,"
+    },
+    {
+      "Id": "71",
+      "Start": 230.763,
+      "End": 232.997,
+      "Transcript": "things like family income,"
+    },
+    {
+      "Id": "72",
+      "Start": 233.03,
+      "End": 235.763,
+      "Transcript": "standardized achievement test scores,"
+    },
+    {
+      "Id": "73",
+      "Start": 235.763,
+      "End": 238.797,
+      "Transcript": "even how safe kids felt when they were at school."
+    },
+    {
+      "Id": "74",
+      "Start": 239.363,
+      "End": 242.297,
+      "Transcript": "So it\u0027s not just at West Point or the National Spelling Bee"
+    },
+    {
+      "Id": "75",
+      "Start": 242.33,
+      "End": 243.463,
+      "Transcript": "that grit matters."
+    },
+    {
+      "Id": "76",
+      "Start": 243.463,
+      "End": 245.43,
+      "Transcript": "It\u0027s also in school,"
+    },
+    {
+      "Id": "77",
+      "Start": 245.43,
+      "End": 247.83,
+      "Transcript": "especially for kids at risk for dropping out."
+    },
+    {
+      "Id": "78",
+      "Start": 249.097,
+      "End": 252.063,
+      "Transcript": "To me, the most shocking thing about grit"
+    },
+    {
+      "Id": "79",
+      "Start": 252.097,
+      "End": 254.063,
+      "Transcript": "is how little we know,"
+    },
+    {
+      "Id": "80",
+      "Start": 254.063,
+      "End": 256.563,
+      "Transcript": "how little science knows, about building it."
+    },
+    {
+      "Id": "81",
+      "Start": 256.997,
+      "End": 259.262,
+      "Transcript": "Every day, parents and teachers ask me,"
+    },
+    {
+      "Id": "82",
+      "Start": 259.262,
+      "End": 261.462,
+      "Transcript": "How do I build grit in kids?"
+    },
+    {
+      "Id": "83",
+      "Start": 261.497,
+      "End": 264.43,
+      "Transcript": "What do I do to teach kids a solid work ethic?"
+    },
+    {
+      "Id": "84",
+      "Start": 264.763,
+      "End": 267.23,
+      "Transcript": "How do I keep them motivated for the long run?"
+    },
+    {
+      "Id": "85",
+      "Start": 267.863,
+      "End": 269.83,
+      "Transcript": "The honest answer is,"
+    },
+    {
+      "Id": "86",
+      "Start": 269.863,
+      "End": 270.93,
+      "Transcript": "I don\u0027t know."
+    },
+    {
+      "Id": "87",
+      "Start": 270.963,
+      "End": 272.43,
+      "Transcript": "(Laughter)"
+    },
+    {
+      "Id": "88",
+      "Start": 272.463,
+      "End": 275.497,
+      "Transcript": "What I do know is that talent doesn\u0027t make you gritty."
+    },
+    {
+      "Id": "89",
+      "Start": 275.53,
+      "End": 277.863,
+      "Transcript": "Our data show very clearly"
+    },
+    {
+      "Id": "90",
+      "Start": 277.863,
+      "End": 280.297,
+      "Transcript": "that there are many talented individuals"
+    },
+    {
+      "Id": "91",
+      "Start": 280.297,
+      "End": 283.43,
+      "Transcript": "who simply do not follow through on their commitments."
+    },
+    {
+      "Id": "92",
+      "Start": 283.797,
+      "End": 288.03,
+      "Transcript": "In fact, in our data, grit is usually unrelated"
+    },
+    {
+      "Id": "93",
+      "Start": 288.063,
+      "End": 291.163,
+      "Transcript": "or even inversely related to measures of talent."
+    },
+    {
+      "Id": "94",
+      "Start": 292.463,
+      "End": 296.563,
+      "Transcript": "So far, the best idea I\u0027ve heard about building grit in kids"
+    },
+    {
+      "Id": "95",
+      "Start": 296.597,
+      "End": 298.797,
+      "Transcript": "is something called growth mindset."
+    },
+    {
+      "Id": "96",
+      "Start": 299.43,
+      "End": 303.13,
+      "Transcript": "This is an idea developed at Stanford University by Carol Dweck,"
+    },
+    {
+      "Id": "97",
+      "Start": 303.13,
+      "End": 308.23,
+      "Transcript": "and it is the belief that the ability to learn is not fixed,"
+    },
+    {
+      "Id": "98",
+      "Start": 308.263,
+      "End": 310.73,
+      "Transcript": "that it can change with your effort."
+    },
+    {
+      "Id": "99",
+      "Start": 311.43,
+      "End": 312.763,
+      "Transcript": "Dr. Dweck has shown"
+    },
+    {
+      "Id": "100",
+      "Start": 312.763,
+      "End": 315.93,
+      "Transcript": "that when kids read and learn about the brain"
+    },
+    {
+      "Id": "101",
+      "Start": 315.93,
+      "End": 319.397,
+      "Transcript": "and how it changes and grows in response to challenge,"
+    },
+    {
+      "Id": "102",
+      "Start": 319.43,
+      "End": 323.43,
+      "Transcript": "they\u0027re much more likely to persevere when they fail,"
+    },
+    {
+      "Id": "103",
+      "Start": 323.463,
+      "End": 328.063,
+      "Transcript": "because they don\u0027t believe that failure is a permanent condition."
+    },
+    {
+      "Id": "104",
+      "Start": 329.063,
+      "End": 332.163,
+      "Transcript": "So growth mindset is a great idea for building grit."
+    },
+    {
+      "Id": "105",
+      "Start": 332.73,
+      "End": 334.263,
+      "Transcript": "But we need more."
+    },
+    {
+      "Id": "106",
+      "Start": 334.83,
+      "End": 336.93,
+      "Transcript": "And that\u0027s where I\u0027m going to end my remarks,"
+    },
+    {
+      "Id": "107",
+      "Start": 336.93,
+      "End": 338.297,
+      "Transcript": "because that\u0027s where we are."
+    },
+    {
+      "Id": "108",
+      "Start": 338.297,
+      "End": 340.463,
+      "Transcript": "That\u0027s the work that stands before us."
+    },
+    {
+      "Id": "109",
+      "Start": 340.497,
+      "End": 344.397,
+      "Transcript": "We need to take our best ideas, our strongest intuitions,"
+    },
+    {
+      "Id": "110",
+      "Start": 344.397,
+      "End": 346.03,
+      "Transcript": "and we need to test them."
+    },
+    {
+      "Id": "111",
+      "Start": 346.497,
+      "End": 349.23,
+      "Transcript": "We need to measure whether we\u0027ve been successful,"
+    },
+    {
+      "Id": "112",
+      "Start": 349.23,
+      "End": 352.963,
+      "Transcript": "and we have to be willing to fail, to be wrong,"
+    },
+    {
+      "Id": "113",
+      "Start": 352.963,
+      "End": 355.597,
+      "Transcript": "to start over again with lessons learned."
+    },
+    {
+      "Id": "114",
+      "Start": 356.33,
+      "End": 359.263,
+      "Transcript": "In other words, we need to be gritty"
+    },
+    {
+      "Id": "115",
+      "Start": 359.297,
+      "End": 361.763,
+      "Transcript": "about getting our kids grittier."
     }
   ]
 }
